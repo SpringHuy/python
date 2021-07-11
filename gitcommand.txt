@@ -16,5 +16,13 @@ git push
 git what next
 git rm testfile.txt
 git rm --cached testfile.txt
+
 git checkout -b newbranch
 git checkout master
+git stash 
+git stash list
+git stash show
+git merge new_branch
+
+
+
