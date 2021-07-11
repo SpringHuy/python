@@ -1,0 +1,14 @@
+git config --global user.name springhuy
+git config --global user.email pxuanhuy@gmail.com
+git config --list
+
+git commit -m "readme commit"
+git status
+git remote add origin https://github.com/SpringHuy/python.git
+git push -u origin master
+
+Git remote -v 
+Git add	Track file
+git commit -m ""
+Git reset HEAD <file>	Unstage file
+git push
