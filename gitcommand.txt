@@ -14,3 +14,7 @@ Git reset HEAD <file>	Unstage file
 git push
 
 git what next
+git rm testfile.txt
+git rm --cached testfile.txt
+git checkout -b newbranch
+git checkout master
