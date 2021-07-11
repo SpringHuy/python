@@ -12,3 +12,5 @@ Git add	Track file
 git commit -m ""
 Git reset HEAD <file>	Unstage file
 git push
+
+git what next
