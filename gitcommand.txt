@@ -24,5 +24,8 @@ git stash list
 git stash show
 git merge new_branch
 
+git config --global http.sslbackend schannel
+git config --global http.sslVerify false
+git config --global http.sslVerify true
 
 
