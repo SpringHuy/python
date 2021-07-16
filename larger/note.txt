@@ -1,0 +1,19 @@
+- package is a hireachy of modules and access its location by __path__ parameters
+
+- while import the location of package is determined by looking at sys.path, append to sys.path to let python know more place to looking for new module - packages
+
+- a package is a directory containing __init__.py
+
+- python -m demo_reader.compressed.bzipped test.bz2 alo haha bela
+
+
+sys.path.append("F:\Python\core\larger")
+
+import demo_reader
+import demo_reader.multireader
+import demo_reader.compressed 
+import demo_reader.compressed.gzipped
+import demo_reader.compressed.bzipped
+from demo_reader.multireader import MultiReader
+
+r = MultiReader("F:\Python\core\larger\\test.bz2"
